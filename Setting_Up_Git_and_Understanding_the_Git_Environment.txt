@@ -1,0 +1,54 @@
+Setting Up Git and Understanding the Git Environment
+
+1. Install Git
+
+Download Git from https://git-scm.com/downloads and install it by
+following the setup wizard for your operating system (Windows, macOS, or
+Linux).
+
+2. Verify Git Installation
+
+Open Git Bash or Terminal and run:
+
+git –version
+
+Example output: git version 2.49.0
+
+This confirms that Git is installed successfully.
+
+3. Configure Global Username and Email
+
+Run the following commands:
+
+git config –global user.name “Your Name”
+
+git config –global user.email “your.email@example.com”
+
+Verify the configuration:
+
+git config –global –list
+
+This displays the configured username and email.
+
+4. Demonstrate Git Bash / Terminal Usage
+
+Open Git Bash or Terminal and execute:
+
+pwd ls mkdir GitPractice cd GitPractice git init
+
+Explanation: - pwd displays the current directory. - ls lists files and
+folders. - mkdir creates a new folder. - cd changes to the new folder. -
+git init initializes a new Git repository.
+
+5. Screenshots Required
+
+Take screenshots of: 1. Git installation completed. 2. Output of
+git --version. 3. Global username and email configuration. 4. Output of
+git config --global --list. 5. Git Bash/Terminal showing git init.
+
+Conclusion
+
+Git was installed successfully, the version was verified, global
+username and email were configured, and Git Bash/Terminal was used to
+initialize a repository. The screenshots provide evidence of each
+completed step.
