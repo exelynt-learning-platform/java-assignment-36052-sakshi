@@ -1,0 +1,58 @@
+Assignment Title Getting Started with GitHub and Remote Repositories
+
+Description
+
+Step 1: Create a GitHub Account 1. Visit https://github.com 2. Click
+Sign Up. 3. Enter your email, username, and password. 4. Verify your
+email and complete registration.
+
+Step 2: Create a Remote Repository 1. Log in to GitHub. 2. Click the “+”
+icon and select “New repository”. 3. Enter the repository name (example:
+GitDemo). 4. Choose Public or Private. 5. Click “Create repository”.
+
+Step 3: Connect Local Repository to GitHub
+
+Initialize the local repository:
+
+git init
+
+Add the remote repository:
+
+git remote add origin https://github.com/your-username/GitDemo.git
+
+Verify the remote:
+
+git remote -v
+
+Push the code to GitHub:
+
+git branch -M main git push -u origin main
+
+Step 4: Useful Commands
+
+Check repository status: git status
+
+View configured remote: git remote -v
+
+View commit history: git log –oneline
+
+Evaluation Criteria
+
+1.  GitHub account created successfully.
+2.  Remote repository created on GitHub.
+3.  Local repository connected to GitHub using git remote add origin.
+4.  Commands executed successfully without errors.
+5.  Explanations are clear and accurate.
+
+Explanation
+
+-   GitHub is a cloud platform used to host Git repositories.
+-   A remote repository stores the project online for backup and
+    collaboration.
+-   The git remote add origin command connects the local repository to
+    GitHub.
+-   The git push command uploads local commits to the remote repository.
+
+Note: Attach screenshots of: 1. GitHub account homepage. 2. Newly
+created repository. 3. Terminal showing git remote -v. 4. Terminal
+showing successful git push.
