@@ -1,0 +1,69 @@
+Tracking and Committing Changes in Git
+
+Step 1: Create or Use an Existing Repository
+
+mkdir GitDemo cd GitDemo git init
+
+Step 2: Create Two Files
+
+echo “Hello Git” > index.txt echo “This is README” > README.md
+
+Check Status: git status
+
+Step 3: Stage the Files
+
+git add .
+
+Check Status Again: git status
+
+Step 4: Commit the Changes
+
+git commit -m “Initial commit with README and index files”
+
+Modify the file: echo “Git Assignment” >> index.txt
+
+Stage and commit again: git add index.txt git commit -m “Updated index
+file with assignment content”
+
+Step 5: View Commit History
+
+git log or git log –oneline
+
+Example Output: a1b2c3d Updated index file with assignment content
+d4e5f6g Initial commit with README and index files
+
+Evaluation Criteria
+
+1.  Correct usage of Git commands
+
+-   git status: Checks the status of files.
+-   git add: Stages files for commit.
+-   git commit: Saves staged changes.
+
+2.  Meaningful Commit Messages
+
+-   Initial commit with README and index files
+-   Updated index file with assignment content
+
+3.  Multiple Commits Created
+
+-   Initial commit
+-   Updated index file
+
+4.  Commit History Viewed Command: git log –oneline
+
+5.  Two Common Beginner Mistakes
+
+Mistake 1: Forgetting to stage files before committing. Example: git
+commit -m “Added new file”
+
+Explanation: Without git add, changes are not included in the commit.
+
+Mistake 2: Using unclear commit messages.
+
+Bad: Update
+
+Good: Fixed login validation bug
+
+Explanation: Meaningful commit messages make it easier to understand
+project history.
