@@ -1,0 +1,69 @@
+Working with Branches and Merging Changes
+
+Step 1: Create a Git Repository
+
+    mkdir GitBranchDemo
+    cd GitBranchDemo
+    git init
+
+Step 2: Create a Main File
+
+    echo "Hello Git" > index.txt
+    git add .
+    git commit -m "Initial commit"
+
+Step 3: Create and Switch to a New Branch
+
+    git branch feature
+    git checkout feature
+
+Or:
+
+    git checkout -b feature
+
+Step 4: Make Changes in the Feature Branch
+
+    echo "Feature branch changes" >> index.txt
+    git add index.txt
+    git commit -m "Added feature changes"
+
+Step 5: Switch Back to Main
+
+    git checkout main
+
+(If your default branch is master, use git checkout master.)
+
+Step 6: Merge the Feature Branch
+
+    git merge feature
+
+Step 7: View Branches
+
+    git branch
+
+Step 8: View Commit History
+
+    git log --oneline
+
+Merge Conflicts
+
+A merge conflict occurs when the same part of a file is modified
+differently in two branches and Git cannot decide which version to keep
+automatically.
+
+How Merge Conflicts Occur
+
+1.  Create two branches.
+2.  Edit the same line in both branches.
+3.  Commit the changes.
+4.  Merge one branch into the other.
+5.  Git reports a merge conflict and asks you to resolve it manually.
+
+Evaluation Criteria
+
+1.  Branches created and switched correctly using git branch and
+    git checkout.
+2.  Changes made in a separate branch.
+3.  Branch merged successfully using git merge.
+4.  Merge conflict explained with its cause.
+5.  All Git commands executed correctly.
