@@ -1,0 +1,112 @@
+Assignment Title Collaborating on GitHub and Following Best Practices
+
+Description
+
+Step 1: Create a README.md File
+
+Example README.md
+
+React Project
+
+Project Description
+
+This is a sample React project created to demonstrate GitHub
+collaboration and Git best practices.
+
+Features
+
+-   User-friendly interface
+-   Responsive design
+-   Easy to maintain
+
+Installation
+
+npm install
+
+Run the Project
+
+npm start
+
+Technologies Used
+
+-   React
+-   JavaScript
+-   HTML
+-   CSS
+
+------------------------------------------------------------------------
+
+Step 2: Create a .gitignore File
+
+Example .gitignore
+
+node_modules/ build/ .env .env.local coverage/ npm-debug.log
+
+The .gitignore file prevents unnecessary and sensitive files from being
+uploaded to GitHub.
+
+------------------------------------------------------------------------
+
+Step 3: Basic GitHub Workflow
+
+1.  Clone the repository git clone
+    https://github.com/your-username/project.git
+
+2.  Create a new branch git checkout -b feature-branch
+
+3.  Make changes
+
+4.  Stage files git add .
+
+5.  Commit changes git commit -m “Added new feature”
+
+6.  Push changes git push origin feature-branch
+
+7.  Create a Pull Request
+
+8.  Merge after review
+
+------------------------------------------------------------------------
+
+Step 4: GitHub Issues and Pull Requests
+
+GitHub Issues - Used to report bugs. - Suggest new features. - Track
+project tasks.
+
+Pull Requests - Used to submit code changes. - Team members review the
+code. - Changes are merged after approval.
+
+------------------------------------------------------------------------
+
+Step 5: Git Best Practices for React Projects
+
+-   Write meaningful commit messages.
+-   Use feature branches.
+-   Keep node_modules in .gitignore.
+-   Commit small changes frequently.
+-   Pull latest changes before pushing.
+-   Keep README.md updated.
+-   Never upload .env files.
+-   Review code before merging.
+
+------------------------------------------------------------------------
+
+Step 6: Recommended Repository Structure
+
+project/ │ ├── public/ ├── src/ ├── node_modules/ (ignored) ├──
+.gitignore ├── README.md ├── package.json └── package-lock.json
+
+------------------------------------------------------------------------
+
+Evaluation Criteria
+
+1.  README.md created with proper documentation.
+2.  .gitignore used correctly.
+3.  GitHub workflow followed properly.
+4.  GitHub Issues and Pull Requests explained.
+5.  Git best practices for React projects explained.
+6.  Repository structure organized.
+7.  Explanations are clear and relevant.
+
+Note: Attach screenshots of: - README.md file - .gitignore file - GitHub
+repository - Pull Request page - Issues page (if created)
