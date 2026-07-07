@@ -1,0 +1,69 @@
+Create and Understand a Git Repository
+
+1. Create a New Project Folder
+
+Create a folder for your project.
+
+Example: mkdir MyProject
+
+2. Initialize a Git Repository
+
+Move into the project folder and initialize Git.
+
+Commands:
+
+cd MyProject git init
+
+This creates a Git repository for the project.
+
+3. Identify and Explain the .git Folder
+
+After running git init, a hidden folder named .git is created.
+
+Explanation: - It stores all Git information and project history. - It
+contains commits, branches, configuration, and repository metadata. -
+Deleting the .git folder removes Git tracking from the project.
+
+4. Create a New File
+
+Create a file named index.txt.
+
+Example:
+
+echo “Hello Git” > index.txt
+
+5. Check File Status
+
+Run:
+
+git status
+
+This command shows: - Current branch. - Modified files. - New
+(untracked) files. - Files ready to be committed.
+
+6. Explain the Three Git File States
+
+Untracked
+
+A new file that Git is not tracking yet.
+
+Tracked (Staged)
+
+A file added using:
+
+git add index.txt
+
+It is ready to be committed.
+
+Committed
+
+A file that has been permanently saved in the Git repository using:
+
+git commit -m “Initial commit”
+
+Conclusion
+
+A new Git repository was created successfully using git init. The .git
+folder stores the repository history and configuration. The git status
+command helps track file changes, and Git manages files through three
+states: Untracked, Staged, and Committed.
