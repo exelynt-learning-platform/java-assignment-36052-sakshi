@@ -7,6 +7,7 @@ workflow, including repository creation, commits, branching, merging,
 
 and remote repository management.
 
+
 ------------------------------------------------------------------------
 
 Step 1: Create a Local Repository
